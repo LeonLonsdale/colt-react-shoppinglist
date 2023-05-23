@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.Property-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.Property {
+  display: flex;
+  flex-direction: column;
+  /* width: 25rem; */
+}
