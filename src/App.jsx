@@ -1,6 +1,8 @@
 import './App.css';
 import ShoppingList from './components/ShoppingList.jsx';
 import PropertyList from './components/PropertyList';
+import TestArrays from './components/TestArrays';
+import ColourCell from './components/ColourCell';
 
 const data = [
   {id: 1, item: 'eggs', quantity: 12, completed: false},
@@ -21,8 +23,11 @@ const properties = [
 function App() {
   return (
     <>
-      <ShoppingList items={data} />
+      <ColourCell />
+      {/* <p>Test</p> */}
+      {/* <ShoppingList items={data} />
       <PropertyList properties={properties} />
+      <TestArrays /> */}
     </>
   );
 }
